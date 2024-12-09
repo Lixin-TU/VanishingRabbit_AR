@@ -1,0 +1,588 @@
+Unity Editor version:    2022.3.47f1 (88c277b85d21)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.1.1 (Build 24B91)
+Darwin version:          24.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/lixin/00 UBCO/00_Github_lixin/codes_github/VanishingRabbit_AR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52961
+Successfully changed project path to: /Users/lixin/00 UBCO/00_Github_lixin/codes_github/VanishingRabbit_AR
+/Users/lixin/00 UBCO/00_Github_lixin/codes_github/VanishingRabbit_AR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8457451584]  Target information:
+
+Player connection [8457451584]  * "[IP] 142.231.64.4 [Port] 0 [Flags] 2 [Guid] 3299751413 [EditorId] 3299751413 [Version] 1048832 [Id] OSXEditor(0,Lixins-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8457451584] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8457451584] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 22.90 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 20.14 ms.
+Initialize engine version: 2022.3.47f1 (88c277b85d21)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lixin/00 UBCO/00_Github_lixin/codes_github/VanishingRabbit_AR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56009
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.47f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003803 seconds.
+- Loaded All Assemblies, in  0.224 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 83 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 504ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (70ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (161ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.435 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.377 seconds
+Domain Reload Profiling: 813ms
+	BeginReloadAssembly (73ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 6.56 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (155.0 KB). Loaded Objects now: 3961.
+Memory consumption went from 138.6 MB to 138.4 MB.
+Total: 2.356542 ms (FindLiveObjects: 0.125625 ms CreateObjectMapping: 0.057584 ms MarkObjects: 2.058042 ms  DeleteObjects: 0.114833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 885360.533491 seconds.
+  path: Assets/Basic Fireworks/Prefabs
+  artifactKey: Guid(b2d1fa922fc96457a97bd2c701cda9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Prefabs using Guid(b2d1fa922fc96457a97bd2c701cda9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'bf080a1c25b631544c19e2dda9463cfe') in 0.000866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.186732 seconds.
+  path: Assets/Basic Fireworks/Prefabs/Green firwork.prefab
+  artifactKey: Guid(d9d9b06c58aec4c73b196853e3e039f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Prefabs/Green firwork.prefab using Guid(d9d9b06c58aec4c73b196853e3e039f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1ea171aa8fe10c9e33571dbfbd7646a5') in 0.365360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.389297 seconds.
+  path: Assets/Basic Fireworks/Prefabs/Orange firework.prefab
+  artifactKey: Guid(755e7daee913041bf89b96e5c5326ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Prefabs/Orange firework.prefab using Guid(755e7daee913041bf89b96e5c5326ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '1b5a8d04fa6b458914b69e14da4bff1c') in 0.006810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.686502 seconds.
+  path: Assets/Basic Fireworks/Prefabs/USA firework.prefab
+  artifactKey: Guid(ee0a1df7b72e444b2819778d31b076d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Prefabs/USA firework.prefab using Guid(ee0a1df7b72e444b2819778d31b076d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9eb1ce8f0e75825e3fdf6ae259ae3055') in 0.006629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.772400 seconds.
+  path: Assets/Basic Fireworks/Prefabs/Roman candle firework.prefab
+  artifactKey: Guid(9fe564c17104d420a8ba62c776aaa43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Prefabs/Roman candle firework.prefab using Guid(9fe564c17104d420a8ba62c776aaa43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '88c8fbb6df16a4dba429d087cde3f468') in 0.077403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.604423 seconds.
+  path: Assets/Basic Fireworks/Prefabs/Pink firework.prefab
+  artifactKey: Guid(c0a488aa662e242d1a267c2ec90f6de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Prefabs/Pink firework.prefab using Guid(c0a488aa662e242d1a267c2ec90f6de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd14de51f210ac2a02338210708bba468') in 0.005514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 10.986904 seconds.
+  path: Assets/Basic Fireworks/Prefabs/Red Firework.prefab
+  artifactKey: Guid(a5b568eb5f8b04cc9b79ade1878e4793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Prefabs/Red Firework.prefab using Guid(a5b568eb5f8b04cc9b79ade1878e4793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6f96df233d2eb76afd2b23427b95058c') in 0.006016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 5.387701 seconds.
+  path: Assets/Basic Fireworks/Demo/Demo.unity
+  artifactKey: Guid(13711c98385694626a238db3db5f1204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Demo/Demo.unity using Guid(13711c98385694626a238db3db5f1204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'be7e68d9f6b2b74816fe4addd927d7c2') in 0.000354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.917149 seconds.
+  path: Assets/Free Voxel Christmas Pack/Documentation.txt
+  artifactKey: Guid(22dd66e9877d5c544bc640c00b2a7b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Documentation.txt using Guid(22dd66e9877d5c544bc640c00b2a7b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '812e547568733e7d3c989809c031cef7') in 0.000989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.378235 seconds.
+  path: Assets/Free Voxel Christmas Pack/Scenes/Demo_Scene.unity
+  artifactKey: Guid(75206a87e074f4c95abec282886624ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Scenes/Demo_Scene.unity using Guid(75206a87e074f4c95abec282886624ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '79eca4546d49155ceb1c1bda1c5f67d3') in 0.000287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.569056 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees
+  artifactKey: Guid(02fd20ed32a4e1a4e9fddaea7192ce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Christmas_Trees using Guid(02fd20ed32a4e1a4e9fddaea7192ce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd054c9c8175e0c8124b6f123dc94aa40') in 0.000410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.745673 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bench_1.prefab
+  artifactKey: Guid(c4cb4c9360b9f1e44815335dac31e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bench_1.prefab using Guid(c4cb4c9360b9f1e44815335dac31e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8ccafee09e68041bedacbbc7c4120675') in 0.012534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.690633 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bridge.prefab
+  artifactKey: Guid(bbd9240fa6d8bee4d88e54776b993cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Bridge.prefab using Guid(bbd9240fa6d8bee4d88e54776b993cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '67cd9c14833496982e75205fc8372452') in 0.005428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.526402 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Fence_2.prefab
+  artifactKey: Guid(9f005e2bebb00a849984f341f487b198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Fence_2.prefab using Guid(9f005e2bebb00a849984f341f487b198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cd4e5364b9bb79ee3371c100f167e0a6') in 0.004677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.578359 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_3.prefab
+  artifactKey: Guid(d67c95ed7d165114c87671fd578d2a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_3.prefab using Guid(d67c95ed7d165114c87671fd578d2a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '78878feddfa6736ec2a1a5d263fcec74') in 0.007267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.533579 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Street_Lamp.prefab
+  artifactKey: Guid(6c317703e2d71d44c92c332d67f2cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Street_Lamp.prefab using Guid(6c317703e2d71d44c92c332d67f2cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'acde4b332bca462719cd42ce475f0136') in 0.004683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.014958 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_2.prefab
+  artifactKey: Guid(13ce57c3d431a124aa4f6939d61d5e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Environment/Snowdrift_2.prefab using Guid(13ce57c3d431a124aa4f6939d61d5e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '2f7b2f425d5e1ae53092727f171f4c43') in 0.006155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 18.181775 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_2.prefab
+  artifactKey: Guid(f6646b6910896fc42a5b78650c5f7390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_2.prefab using Guid(f6646b6910896fc42a5b78650c5f7390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7c40c6b297fda1cae876866ed33eec9e') in 0.005210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.016087 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_3.prefab
+  artifactKey: Guid(6835dec70fb82c34eaf49b4af493e02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_3.prefab using Guid(6835dec70fb82c34eaf49b4af493e02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '3b6766f142746bc93251c51cf4889ab2') in 0.005782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.193494 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_4.prefab
+  artifactKey: Guid(769b54b5a45f25640a5143a203ecf957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_4.prefab using Guid(769b54b5a45f25640a5143a203ecf957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9cde5af0d56335a9b6c8f7aa3eab4ae7') in 0.004360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.177980 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_5.prefab
+  artifactKey: Guid(93ba7ac6fba187547a4035f770d6260d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Big_Gift_5.prefab using Guid(93ba7ac6fba187547a4035f770d6260d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0bd0073038e711b9b2694b4a68a7e3a9') in 0.004481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.150608 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_1.prefab
+  artifactKey: Guid(dd4e2812298b403418a9d09c4096e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_1.prefab using Guid(dd4e2812298b403418a9d09c4096e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '007c9a085a107ec48d6355c665ebfb80') in 0.005059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.167265 seconds.
+  path: Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_2.prefab
+  artifactKey: Guid(d8c6b34009e19b54b969c5af7d8b2768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Voxel Christmas Pack/Prefabs/Gifts/Small_Gift_2.prefab using Guid(d8c6b34009e19b54b969c5af7d8b2768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '05825eac5127d1a6f8c3107dda712a85') in 0.005015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 45.754792 seconds.
+  path: Assets/Basic Fireworks/Prefabs/Yellow firework.prefab
+  artifactKey: Guid(9a19b108bfb1d439ab6adcec861e88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Fireworks/Prefabs/Yellow firework.prefab using Guid(9a19b108bfb1d439ab6adcec861e88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9840dd65b219749774dbf912ddf954c8') in 0.005845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x321a47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.294 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 3.62 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 6.90 ms.
+Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (143.7 KB). Loaded Objects now: 3974.
+Memory consumption went from 139.7 MB to 139.6 MB.
+Total: 2.589208 ms (FindLiveObjects: 0.141792 ms CreateObjectMapping: 0.061583 ms MarkObjects: 2.259750 ms  DeleteObjects: 0.125750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.24 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 9.11 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (142.8 KB). Loaded Objects now: 3975.
+Memory consumption went from 91.1 MB to 90.9 MB.
+Total: 11.085375 ms (FindLiveObjects: 0.152417 ms CreateObjectMapping: 0.046708 ms MarkObjects: 10.770791 ms  DeleteObjects: 0.115042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17fb47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.299 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1001ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (701ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 2.39 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 6.84 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (141.4 KB). Loaded Objects now: 3977.
+Memory consumption went from 145.4 MB to 145.3 MB.
+Total: 2.321708 ms (FindLiveObjects: 0.116291 ms CreateObjectMapping: 0.055875 ms MarkObjects: 2.049708 ms  DeleteObjects: 0.099584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
